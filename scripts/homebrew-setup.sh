@@ -7,10 +7,12 @@ brew cask install \
 	istat-menus \
 	java \
 	microsoft-office \
+	sequel-pro \
 	slack \
 	sourcetree \
 	spotify \
 	sublime-text \
+	texpad \
 	typora \
 	visual-studio-code \
 	whatsapp
