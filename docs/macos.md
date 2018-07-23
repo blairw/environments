@@ -4,7 +4,7 @@ Based on High Sierra.
 
 ## Homebrew
 
-After installing Homebrew, install the required apps using [homebrew-setup.sh](homebrew-setup.sh).
+After installing Homebrew, install the required apps using [homebrew-setup.sh](../scripts/homebrew-setup.sh).
 
 ## Apache
 
