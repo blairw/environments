@@ -17,20 +17,22 @@
 sudo dnf install -y \
     audacity \
     geany \
+    geary \
     gimp \
     git \
     gitg \
     gparted \
     libreoffice \
-    netbeans \
     numix-icon-theme-circle \
     p7zip
 ```
 
 ## Additional repos/installation
 
+- [Dropbox](https://www.dropbox.com/install-linux)
 - [Google Chrome](https://www.if-not-true-then-false.com/2010/install-google-chrome-with-yum-on-fedora-red-hat-rhel/)
 - [Spotify](https://negativo17.org/spotify-client/)
 - [VirtualBox](https://www.if-not-true-then-false.com/2010/install-virtualbox-with-yum-on-fedora-centos-red-hat-rhel/)
 - [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux)
 - [WINE](https://wiki.winehq.org/Fedora)
+- [WPS Office](http://wps-community.org/downloads)
