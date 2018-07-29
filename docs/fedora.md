@@ -23,8 +23,10 @@ sudo dnf install -y \
     gitg \
     gparted \
     libreoffice \
+    MyPasswordSafe \
     numix-icon-theme-circle \
-    p7zip
+    p7zip \
+    redshift
 ```
 
 ## Additional repos/installation

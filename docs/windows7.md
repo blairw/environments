@@ -10,25 +10,34 @@ As admin, to make everything else easier:
 cinst -y sudo
 ```
 
+## Updates
+
 Windows 7 SP1 if you don't have it installed already:
 
 ```
 sudo cinst -y KB976932
 ```
 
-Work without going insane - multimedia, docs, dev, admin:
+Internet Explorer 11, if you actually need it (e.g. **if you use EndNote**):
 
-```
-sudo cinst -y audacity gimp paint.net vlc
-sudo cinst -y googlechrome naps2 passwordsafe sumatrapdf typora
-sudo cinst -y cygwin cyg-get git netbeans notepadplusplus sourcetree vscode
-sudo cinst -y batterybar conemu mactype processhacker
+```bash
+sudo cinst -y ie11
 ```
 
-BitLocker doesn't work without a TPM. OK, it does, but you can't set it to unlock with a password, it requires a USB key instead which is impractical for a laptop. So use VeraCrypt instead:
+*(You will need to restart afterwards.)*
 
+## Useful software
+
+Work without going insane:
+
+```bash
+sudo cinst -y 7zip.install batterybar git googlechrome irfanview.install irfanviewplugins mactype naps2 netbeans notepadplusplus.install paint.net passwordsafe sourcetree sumatrapdf typora vscode
 ```
-sudo cinst -y veracrypt
+
+Things not needed if this is a VM inside another desktop OS (e.g. macOS, Linux):
+
+```bash
+sudo cinst -y audacity gimp vlc cygwin cyg-get
 ```
 
 All that juicy cloud + messaging:
@@ -38,14 +47,16 @@ sudo cinst -y dropbox googledrive onedrive
 sudo cinst -y slack skype whatsapp
 ```
 
+## Encryption
+
+BitLocker doesn't work without a TPM. OK, it does, but you can't set it to unlock with a password, it requires a USB key instead which is impractical for a laptop. So use VeraCrypt instead:
+
+```
+sudo cinst -y veracrypt
+```
+
 ## Other
 
-I personally install Nvivo and SPSS provided by my university.
+Reminds to myself to install university software - Office, Nvivo, SPSS, Tableau.
 
-My university also provides Office 365:
-
-```
-sudo cinst -y office365proplus
-```
-
-Picasa 3.
+Also Picasa 3.
